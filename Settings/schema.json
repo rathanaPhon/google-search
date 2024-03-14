@@ -19,7 +19,7 @@
         "fileMatch": [
             "/*.foo.json"
       ],
-        "url": "./myschema.json"
+        "url": "https://rathanaphon.github.io/myschema.json"
     }
 ]
 
