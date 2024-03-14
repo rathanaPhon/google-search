@@ -14,7 +14,7 @@
     </style>
   </head>
   <body>
-    <div id="mapDiv"></div>
+    <div id="mapDiv">Google maps</div>
     
     <div>
        <iframe src="http://rathanaphon.github.io/webpage/sitemap.xml"/ style="width="210px" height="120px" </iframe>
