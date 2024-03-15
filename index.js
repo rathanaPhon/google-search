@@ -1,11 +1,11 @@
 /**
- * Firebase Cloud Messaging (FCM) can be used to send messages to clients on iOS, Android and Web.
- *
- * This sample uses FCM to send two types of messages to clients that are subscribed to the `news`
- * topic. One type of message is a simple notification message (display message). The other is
- * a notification message (display notification) with platform specific customizations. For example,
- * a badge is added to messages that are sent to iOS devices.
- */
+  * Firebase Cloud Messaging (FCM) អាចត្រូវបានប្រើដើម្បីផ្ញើសារទៅកាន់អតិថិជននៅលើ iOS, Android និង Web ។
+  *
+  * គំរូនេះប្រើ FCM ដើម្បីផ្ញើសារពីរប្រភេទទៅអតិថិជនដែលបានជាវ 'ព័ត៌មាន'
+  * ប្រធានបទ។  សារមួយប្រភេទគឺសារជូនដំណឹងសាមញ្ញ (បង្ហាញសារ)។  មួយទៀតគឺ
+  * សារជូនដំណឹង (បង្ហាញការជូនដំណឹង) ជាមួយនឹងការប្ដូរតាមបំណងជាក់លាក់នៃវេទិកា។  ឧទាហរណ៍,
+  * ផ្លាកសញ្ញាត្រូវបានបន្ថែមទៅសារដែលត្រូវបានផ្ញើទៅកាន់ឧបករណ៍ iOS ។
+  */
 const https = require('https');
 const { google } = require('googleapis');
 
@@ -14,11 +14,10 @@ const HOST = 'fcm.googleapis.com';
 const PATH = '/v1/projects/' + PROJECT_ID + '/messages:send';
 const MESSAGING_SCOPE = 'https://www.googleapis.com/auth/firebase.messaging';
 const SCOPES = [MESSAGING_SCOPE];
-
 /**
- * Get a valid access token.
- */
-// [START retrieve_access_token]
+  * ទទួលបានសញ្ញាសម្ងាត់ចូលប្រើត្រឹមត្រូវ។
+  */
+ // [START ទៅយក_access_token]
 function getAccessToken() {
   return new Promise(function(resolve, reject) {
     const key = require('../placeholders/service-account.json');
@@ -38,13 +37,11 @@ function getAccessToken() {
     });
   });
 }
-// [END retrieve_access_token]
-
 /**
- * Send HTTP request to FCM with given message.
- *
- * @param {object} fcmMessage will make up the body of the request.
- */
+  * ផ្ញើសំណើ HTTP ទៅ FCM ជាមួយនឹងសារដែលបានផ្តល់ឱ្យ។
+  *
+  * @param {object} fcmMessage នឹងបង្កើតជាតួនៃសំណើ។
+  */
 function sendFcmMessage(fcmMessage) {
   getAccessToken().then(function(accessToken) {
     const options = {
@@ -104,12 +101,11 @@ function buildOverrideMessage() {
 
   return fcmMessage;
 }
-
 /**
- * Construct a JSON object that will be used to define the
- * common parts of a notification message that will be sent
- * to any app instance subscribed to the news topic.
- */
+  * បង្កើតវត្ថុ JSON ដែលនឹងត្រូវបានប្រើដើម្បីកំណត់
+  * ផ្នែកទូទៅនៃសារជូនដំណឹងដែលនឹងត្រូវបានផ្ញើ
+  * ចំពោះកម្មវិធីណាមួយដែលបានជាវប្រធានបទព័ត៌មាន។
+  */
 function buildCommonMessage() {
   return {
     'message': {
