@@ -72,11 +72,10 @@ function sendFcmMessage(fcmMessage) {
     request.end();
   });
 }
-
 /**
- * Construct a JSON object that will be used to customize
- * the messages sent to iOS and Android devices.
- */
+  * បង្កើតវត្ថុ JSON ដែលនឹងត្រូវបានប្រើដើម្បីប្ដូរតាមបំណង
+  * សារដែលបានផ្ញើទៅកាន់ឧបករណ៍ iOS និង Android ។
+  */
 function buildOverrideMessage() {
   const fcmMessage = buildCommonMessage();
   const apnsOverride = {
