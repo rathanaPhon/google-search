@@ -119,7 +119,7 @@ body{
 </div>
 
 <div id="messagesdivid" class="messagesdiv" >
-<p class="starttext" align="center">Hello, my name is Codeflash. I am an example of a chatbot.</p>
+<p class="starttext" align="center">Hello chatbot.</p>
 </div>
 
 <div class="bottom" align="center" >
