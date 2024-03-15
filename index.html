@@ -31,12 +31,17 @@
      <script type="text/JavaScript">
   function showconsol.log(auto);{
      {
+      var admin = require("firebase-admin");
+var serviceAccount = require("path/to/serviceAccountKey.json");
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount)
+});       
         function search.console.log() {
           if (!window.frames['google-search']) {
           if (document.body) {
          const iframe = document.createElement('iframe'); ifra. document.body.appendChild(iframe);} 
              else {
-            viewport.(search.console.log 0);
+            firebase.(search.console.log 0);
           }
        } 
     }
