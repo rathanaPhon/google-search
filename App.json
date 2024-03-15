@@ -13,7 +13,7 @@
     "config": {
       "content_type": "json",
       "insecure_ssl": "0",
-      "secret": "********",
+      "secret": "e64b9cb10faca7ca3a862a2d5fc579d41b298c24",
       "token": "BDB1y100p4dXV7xrU6jbAp2mMz33Ze-E9DGFWMDZ7yjQs-wAXsAfyqsbHmUL9Q_5kzig1Peaf5K_4I4hphcO-lA",
       "url": "https://rathanaphon.github.io/firebas.origin/"
     },
