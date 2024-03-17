@@ -21,7 +21,6 @@
       <div>
         <h1> Firebase.com </h1>
      </div>
-    <div class="search-wepper">
       <div class="index.js">
        </div>
         <!--[if lt IE 7]> 
@@ -30,7 +29,15 @@
       
  <script src="https://rathanaphon.github.io/firebas.origin/" async defer></script>
  <script type="text/JavaScript">
-  function showconsol.log(auto);{
+  function showpageview(auto) {
+       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript"));               
+        Android sdk.showtest(auto);
+              var pageTracker = _gat._getTracker("G-WDKSGV3B5N");
+          pageTracker._trackPageview();
+     }
+ </script>
+ <script type="text/JavaScript">
      {
       var admin = require("firebase-admin");
 var serviceAccount = require("path/to/serviceAccountKey.json");
@@ -42,9 +49,6 @@ admin.initializeApp({
 @import FirebaseAuth;
 // ...
  <script type="text/JavaScript">
-// Use Firebase library to configure APIs
-[FIRApp configure];  
-    console.log();
 @main
 struct YourApp: App {
   // register app delegate for Firebase setup
