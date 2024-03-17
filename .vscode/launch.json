@@ -11,7 +11,18 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/workspaces/google-search/API/index.html"
+            "file": "/workspaces/firebase.origin/API/index.html"
+        },
+        {
+            "name": "Docker Node.js Launch",
+            "type": "docker",
+            "request": "launch",
+            "preLaunchTask": "docker-run: debug",
+            "platform": "node",
+            "node": {
+                "package": "${workspaceFolder}/api/package.json",
+                "localRoot": "${workspaceFolder}/api"
+            }
         }
     ]
 }
