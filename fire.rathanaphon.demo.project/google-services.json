@@ -3,7 +3,7 @@
     "project_number": "222643976934",
     "firebase_url": "https://fire.rathanaphon.demo.project.firebas.com",
     "project_id": "website-e6c82",
-    "storage_bucket": "fire.rathanaphon.demo.project.firebas.appspot.com"
+    "storage_bucket": "fire.rathanaphon.demo.project.appspot.com"
   },
   "client": [
     {
@@ -16,7 +16,7 @@
       "oauth_client": [
         {
           "client_id": "222643976934-39j253bm66h5m7di7smurthlc07s2btm.apps.googleusercontent.com",
-          "client_type": 1,
+          "client_type": 1
           "android_info": {
             "package_name": "Rathanaphon.github.io",
             "certificate_hash": "481aae5d666dc28c1e6af7648f84ac3e0f65772d"
