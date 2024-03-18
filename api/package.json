@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "dependencies": {
+        "cordova-plugin-remove-googleservices": "^0.1.1",
+        "is-docker": "^3.0.0",
+        "react-is": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/react-is": "^18.2.4"
+    }
+}

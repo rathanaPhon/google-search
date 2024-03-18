@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "222643976934",
+    "firebase_url": "https://rathanaphon.github.io.firebaseio.origin",
+    "project_id": "website-e6c82",
+    "storage_bucket": "website-e6c82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222643976934:android:ea412b1a267b4810935927",
+        "android_client_info": {
+          "package_name": "Rathanaphon.github.io"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222643976934-39j253bm66h5m7di7smurthlc07s2btm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Rathanaphon.github.io",
+            "certificate_hash": "481aae5d666dc28c1e6af7648f84ac3e0f65772d"
+          }
+        },
+        {
+          "client_id": "300830567303-kuq7unu52cngmd7qif6hsn39ddam86j6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Rathanaphon.github.io",
+            "certificate_hash": "7611bcbc27e1d08b77eff4756fb59ee3a65791628a789db850788a04cf38896f"
+          }
+        },
+        {
+          "client_id": "222643976934-1i5fo70r8rc8499b4uih06t3uqp1no7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaScD-GAaAksJ5EkR5QN15j3SSAOlapeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222643976934-1i5fo70r8rc8499b4uih06t3uqp1no7o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "222643976934-en14pgt2nlf7icckmpm3jh2d7u0kcdpq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.test.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
