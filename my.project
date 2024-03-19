@@ -1,0 +1,33 @@
+{
+  "project_info": {
+    "project_number": "222643976934",
+    "project_id": "website-e6c82",
+    "storage_bucket": "website-e6c82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "web_app_id": "1:222643976934:web:3f8dc1de75b47a43935927",
+        "wed_client_info": {
+          "package_name": "Rathanaphon.github.io"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA49nis0VWifZkBCVH-RUWl9nK3d7dcAag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+             "authDomain": "website-e6c82.firebaseapp.com",
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+
+
+
